@@ -42,3 +42,10 @@ next-env.d.ts
 
 # Ignore Firebase Admin SDK JSON (if using Firebase Admin)
 firebase-adminsdk-*.json
+
+# Additional ignores (optional but useful)
+/.turbo
+
+.eslintcache
+
+/.swc
