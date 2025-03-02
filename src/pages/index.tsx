@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { ref, get } from "firebase/database";
 import { database } from "../utils/lib/firebaseConfig"; // Import Firebase config
 import Head from "next/head";
-import Image from "next/image";
+
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
@@ -130,7 +130,7 @@ export default function Home({ blogs }: { blogs: AIBlog[] }) {
 
         {/* Blog Section */}
        
-        <Blogs blogs={blogPosts} />
+        <Blogs blogs={blogs} />
         {/* Google AdSense Ad Below Blog Section */}
         <div className="flex justify-center my-6">
           <GoogleAd adSlot="bottom-ad-slot-id" />

@@ -21,7 +21,7 @@ export default function GoogleAd({ adSlot }: { adSlot: string }) {
       const adClicksRef = ref(database, "adClicks");
       const snapshot = await get(adClicksRef);
 
-      let currentClicks = snapshot.exists() ? snapshot.val() : 0;
+      const currentClicks = snapshot.exists() ? snapshot.val() : 0;
       const newClicks = currentClicks + 1;
 
       await set(adClicksRef, newClicks);

@@ -27,7 +27,8 @@ export default function TermsOfService() {
           <p className="text-gray-300">Our website contains links to external AI tools. We do not control or endorse their content and are not responsible for their policies.</p>
           
           <h2 className="text-2xl font-semibold mt-6">4. Disclaimer of Warranties</h2>
-          <p className="text-gray-300">AI Directory provides information on AI tools "as is" without any warranties or guarantees regarding accuracy or reliability.</p>
+          <p className="text-gray-300">AI Directory provides information on AI tools &quot;as is&quot; without any warranties or guarantees regarding accuracy or reliability.</p>
+
           
           <h2 className="text-2xl font-semibold mt-6">5. Limitation of Liability</h2>
           <p className="text-gray-300">We are not liable for any damages resulting from your use of AI Directory or third-party links.</p>

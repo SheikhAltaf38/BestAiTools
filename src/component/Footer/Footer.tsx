@@ -132,7 +132,7 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Twitter, Linkedin, Youtube, Globe, Mail, CircleUser, Send, Building, Video, Camera } from "lucide-react";
+import {  Globe, Mail,  Send, Building, Video, Camera } from "lucide-react";
 
 const Footer = () => {
  
