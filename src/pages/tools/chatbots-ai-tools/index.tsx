@@ -76,7 +76,9 @@ export default function ChatbotAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI Chatbots, Virtual Assistants, AI Customer Support, AI for Conversations" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Chatbots & Virtual Assistants for Conversations" />
-        <meta property="og:image" content="/images/ai-chatbots.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/chatbots-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/chatbots-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/chatbots-ai-tools" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Chatbots & Virtual Assistants</h1>

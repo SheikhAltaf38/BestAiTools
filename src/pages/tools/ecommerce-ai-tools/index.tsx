@@ -74,7 +74,9 @@ export default function EcommerceAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI E-Commerce Tools, AI Shopping Assistants, AI for Online Stores" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI E-Commerce Tools for Online Businesses" />
-        <meta property="og:image" content="/images/ai-ecommerce-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/ecommerce-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/ecommerce-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/ecommerce-ai-tools" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI E-Commerce Tools</h1>

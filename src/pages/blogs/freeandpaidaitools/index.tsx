@@ -10,6 +10,9 @@ export default function Blog() {
         <meta name="description" content="Boost your productivity with the best free and paid AI tools available in 2025. Learn about the latest trends and how businesses are leveraging AI for growth." />
         <meta name="keywords" content="AI tools, productivity, free AI tools, paid AI tools, automation, AI software, 2025 AI trends, AI for business, AI growth" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
+        <link rel="canonical" href="https://trendingaitools.vercel.app/blogs/freeandpaidaitools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/blogs/freeandpaidaitools" />
       </Head>
       <div className="max-w-5xl mx-auto p-6">
         <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best Free & Paid AI Tools for Productivity</h1>

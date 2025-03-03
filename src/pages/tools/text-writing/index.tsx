@@ -76,7 +76,9 @@ export default function TextWritingAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI Writing Tools, AI Text Generators, Copywriting AI, AI for Writers" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Writing Tools for Writers & Creators" />
-        <meta property="og:image" content="/images/ai-writing-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/text-writing.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/text-writing" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/text-writing" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Writing Tools</h1>

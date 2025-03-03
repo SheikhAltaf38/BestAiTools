@@ -86,7 +86,9 @@ export default function ImageDesignAITools({ tools }: { tools: AITool[] }) {
         />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Image & Design Tools" />
-        <meta property="og:image" content="/images/ai-image-design-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/ai-image-design.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/ai-image-design" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/ai-image-design" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Image & Design Tools</h1>

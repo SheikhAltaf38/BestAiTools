@@ -76,7 +76,9 @@ export default function AudioSpeechAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI Audio Tools, AI Speech Tools, AI Voice Generators, AI Text-to-Speech" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Audio & Speech Tools for Creators" />
-        <meta property="og:image" content="/images/ai-audio-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/audio-speech-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/audio-speech-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/audio-speech-ai-tools" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Audio & Speech Tools</h1>

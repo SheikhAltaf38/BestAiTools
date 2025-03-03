@@ -76,7 +76,9 @@ export default function SeoMarketingAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI SEO Tools, AI Marketing, Digital Marketing AI, SEO Optimization AI" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI SEO & Marketing Tools" />
-        <meta property="og:image" content="/images/ai-seo-marketing-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/seo-marketing-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/seo-marketing-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/seo-marketing-ai-tools" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI SEO & Marketing Tools</h1>

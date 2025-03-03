@@ -76,7 +76,9 @@ export default function DataAnalyticsAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI Data Tools, AI Analytics Tools, Business Intelligence AI, AI for Data Science" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Data & Analytics Tools for Insights & Decision-Making" />
-        <meta property="og:image" content="/images/ai-data-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/data-analytics-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/data-analytics-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/data-analytics-ai-tools" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Data & Analytics Tools</h1>

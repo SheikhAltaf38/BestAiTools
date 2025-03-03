@@ -10,6 +10,8 @@ export default function Blog() {
         <meta name="description" content="Discover how AI is transforming businesses in 2025, driving automation, enhancing decision-making, and boosting efficiency across industries." />
         <meta name="keywords" content="AI in business, artificial intelligence, automation, AI trends 2025, business innovation, AI growth, machine learning" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/blogs/revolutioningaitools2025" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/blogs/revolutioningaitools2025" />
       </Head>
       <div className="max-w-5xl mx-auto p-6">
         <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">How AI is Revolutionizing Businesses in 2025</h1>

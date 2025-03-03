@@ -9,18 +9,20 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 
 const GoogleAd = dynamic(() => import("../component/GoogleAd"), { ssr: false });
-const GameComponent = dynamic(() => import("../component/game/GameComponent"), { ssr: false });
+const GameComponent = dynamic(() => import("../component/game/GameComponent"), {
+  ssr: false,
+});
 import FeaturedToolsSection from "../component/home/FeaturedToolsSection";
 import AICategories from "../component/home/AICategories";
 import { GetStaticProps } from "next";
 import blogPosts from "@/data/blogposts";
-import Blogs from "../component/blogs/Blogs"
+import Blogs from "../component/blogs/Blogs";
 interface AIBlog {
   title: string;
   link: string;
   image: string;
   id: number;
-  excerpt:string;
+  excerpt: string;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -31,10 +33,8 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-
 export default function Home({ blogs }: { blogs: AIBlog[] }) {
   const [adClicks, setAdClicks] = useState(0);
-  
 
   // Fetch total ad clicks from Firebase
   useEffect(() => {
@@ -56,39 +56,62 @@ export default function Home({ blogs }: { blogs: AIBlog[] }) {
   return (
     <>
       {/* SEO Metadata */}
+      <title>AI Tool Directory - Discover the Best AI Tools & Software</title>
       <Head>
-        <title>AI Tool Directory - Discover the Best AI Tools & Software</title>
         <meta
           name="description"
           content="Your ultimate directory for AI tools, software, and applications. Find the perfect AI solution for your needs."
         />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="AI Tool Directory - Discover the Best AI Tools & Software" />
-        <meta property="og:description" content="Find and explore AI tools for various needs." />
-        <meta property="og:url" content="https://yourdomain.com" />
-        <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
+
+        {/* <!-- Canonical Tag (IMPORTANT) --> */}
+        <link rel="canonical" href="https://trendingaitools.vercel.app/" />
+
+        {/* <!-- Open Graph (Facebook, LinkedIn) --> */}
+        <meta
+          property="og:title"
+          content="AI Tool Directory - Discover the Best AI Tools & Software"
+        />
+        <meta
+          property="og:description"
+          content="Find and explore AI tools for various needs."
+        />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://trendingaitools.vercel.app/og-images/homepage.webp"
+        />
         <meta property="og:type" content="website" />
+
+        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Tool Directory" />
-        <meta name="twitter:description" content="Find and explore AI tools for various needs." />
-        <meta name="twitter:image" content="https://yourdomain.com/twitter-image.jpg" />
+        <meta
+          name="twitter:description"
+          content="Find and explore AI tools for various needs."
+        />
+        <meta
+          name="twitter:image"
+          content="https://trendingaitools.vercel.app/og-images/homepage.webp"
+        />
       </Head>
 
       <div className="min-h-screen bg-gray-50">
         {/* 🔥 Ad Click Counter - Placed Smartly at the Top */}
         <div className="w-full bg-blue-100 text-blue-800 text-center py-3 font-semibold shadow-md">
-          Users have clicked on ads <span className="text-blue-600">{adClicks}</span> times! 🚀
+          Users have clicked on ads{" "}
+          <span className="text-blue-600">{adClicks}</span> times! 🚀
         </div>
-
-    
-
 
         {/* Hero Section */}
         <section className="text-center py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
           <div className="container mx-auto px-4">
-            <h1 className="text-5xl font-bold mb-6">Discover the Best AI Tools & Software</h1>
+            <h1 className="text-5xl font-bold mb-6">
+              Discover the Best AI Tools & Software
+            </h1>
             <p className="text-xl mb-8">
-              Your ultimate directory for AI tools, software, and applications. Find the perfect AI solution for your needs.
+              Your ultimate directory for AI tools, software, and applications.
+              Find the perfect AI solution for your needs.
             </p>
             <div className="flex justify-center gap-4">
               <Link
@@ -129,7 +152,7 @@ export default function Home({ blogs }: { blogs: AIBlog[] }) {
         <AICategories />
 
         {/* Blog Section */}
-       
+
         <Blogs blogs={blogs} />
         {/* Google AdSense Ad Below Blog Section */}
         <div className="flex justify-center my-6">

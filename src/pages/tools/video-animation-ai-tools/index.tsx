@@ -76,7 +76,9 @@ export default function VideoAnimationAITools({ tools }: { tools: AITool[] }) {
         <meta name="keywords" content="AI Video Tools, AI Animation Tools, AI Video Editing, AI Video Generators" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Video & Animation Tools for Creators" />
-        <meta property="og:image" content="/images/ai-video-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/video-animation-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/video-animation-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/video-animation-ai-tools" />
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Video & Animation Tools</h1>

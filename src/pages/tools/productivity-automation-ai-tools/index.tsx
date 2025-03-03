@@ -76,7 +76,10 @@ export default function ProductivityAutomationAITools({ tools }: { tools: AITool
         <meta name="keywords" content="AI Productivity Tools, AI Automation Tools, Task Automation, Workflow AI" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best AI Productivity & Automation Tools" />
-        <meta property="og:image" content="/images/ai-productivity-tools.jpg" />
+        <meta property="og:image" content="https://trendingaitools.vercel.app/og-image/productivity-automation-ai-tools.webp" />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/tools/productivity-automation-ai-tools" />
+        <meta property="og:url" content="https://trendingaitools.vercel.app/tools/productivity-automation-ai-tools" />
+      
       </Head>
 
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">Best AI Productivity & Automation Tools</h1>
