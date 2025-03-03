@@ -90,7 +90,7 @@ export default function DataAnalyticsAITools({ tools }: { tools: AITool[] }) {
         </div>
 
       <div className="flex justify-center my-5">
-        <GoogleAd adSlot="top-ad-slot-id" />
+        <GoogleAd adSlot="6062226910" />
       </div>
 
       <div className="container mx-auto px-6 py-10">
@@ -126,7 +126,7 @@ export default function DataAnalyticsAITools({ tools }: { tools: AITool[] }) {
         </div>
 
         <div className="flex justify-center my-6">
-          <GoogleAd adSlot="middle-ad-slot-id" />
+          <GoogleAd adSlot="2232962424" />
         </div>
 
         {topTools.length > 0 && (
@@ -154,7 +154,7 @@ export default function DataAnalyticsAITools({ tools }: { tools: AITool[] }) {
         )}
 
         <div className="flex justify-center my-6">
-          <GoogleAd adSlot="bottom-ad-slot-id" />
+          <GoogleAd adSlot="2823989360" />
         </div>
       </div>
     </>

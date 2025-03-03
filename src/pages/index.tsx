@@ -137,7 +137,7 @@ export default function Home({ blogs }: { blogs: AIBlog[] }) {
 
         {/* Google AdSense Ad in Hero Section */}
         <div className="flex justify-center my-5">
-          <GoogleAd adSlot="top-ad-slot-id" />
+          <GoogleAd adSlot="6062226910" />
         </div>
 
         {/* Featured Tools Section */}
@@ -145,7 +145,7 @@ export default function Home({ blogs }: { blogs: AIBlog[] }) {
 
         {/* Google AdSense Ad Below Featured Tools */}
         <div className="flex justify-center my-6">
-          <GoogleAd adSlot="middle-ad-slot-id" />
+          <GoogleAd adSlot="2232962424" />
         </div>
 
         {/* AI Categories */}
@@ -156,7 +156,7 @@ export default function Home({ blogs }: { blogs: AIBlog[] }) {
         <Blogs blogs={blogs} />
         {/* Google AdSense Ad Below Blog Section */}
         <div className="flex justify-center my-6">
-          <GoogleAd adSlot="bottom-ad-slot-id" />
+          <GoogleAd adSlot="2823989360" />
         </div>
       </div>
     </>

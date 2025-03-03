@@ -22,7 +22,7 @@ export default function Blog() {
         <Image src="/blogs/freeandpaidaitools/freeandpaidaitools.webp" alt="AI Tools" width={1200} height={600} className="rounded-xl mx-auto shadow-lg" />
         
         <div className="flex justify-center my-6">
-          <GoogleAd adSlot="top-ad-slot-id" />
+          <GoogleAd adSlot="6062226910" />
         </div>
         
         <div className="mt-10 space-y-6">
@@ -32,7 +32,7 @@ export default function Blog() {
           </p>
           
           <div className="flex justify-center my-6">
-            <GoogleAd adSlot="middle-ad-slot-id" />
+            <GoogleAd adSlot="2232962424" />
           </div>
           
           <h2 className="text-2xl font-semibold text-gray-800">Top Free AI Tools</h2>
@@ -59,7 +59,7 @@ export default function Blog() {
           </p>
           
           <div className="flex justify-center my-6">
-            <GoogleAd adSlot="bottom-ad-slot-id" />
+            <GoogleAd adSlot="2823989360" />
           </div>
           
           <h2 className="text-2xl font-semibold text-gray-800">Final Thoughts</h2>
