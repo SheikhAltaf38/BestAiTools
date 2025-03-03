@@ -10,6 +10,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>AI Tool Directory - Discover the Best AI Tools & Software</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2564230155331044"
+     crossOrigin="anonymous"></script>
         <meta
           name="description"
           content="Comprehensive directory of AI tools, software, and applications. Find the perfect AI solution for your needs with our curated collection of artificial intelligence resources."
@@ -18,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="AI Tool Directory - Discover the Best AI Tools & Software" />
         <meta property="og:description" content="Your ultimate guide to AI tools and software solutions" />
         <meta property="og:url" content="https://yourdomain.com" />
-        <meta property="og:site_name" content="AI Tool Directory" />
+        <meta property="og:site_name" content="Trending Ai Tools" />
         <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
