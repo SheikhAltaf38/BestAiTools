@@ -7,6 +7,7 @@ export default function PrivacyPolicy() {
       <Head>
         <title>Privacy Policy - AI Directory</title>
         <meta name="description" content="Read our privacy policy to understand how AI Directory operates and manages user interactions." />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/privacy-policy" />
       </Head>
       <div className="min-h-screen bg-gray-900 text-white">
         <header className="bg-gray-800 p-4 text-center text-2xl font-bold">

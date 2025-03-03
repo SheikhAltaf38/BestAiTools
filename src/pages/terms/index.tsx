@@ -7,6 +7,7 @@ export default function TermsOfService() {
       <Head>
         <title>Terms of Service - AI Directory</title>
         <meta name="description" content="Read the Terms of Service for AI Directory to understand the guidelines for using our platform." />
+        <link rel="canonical" href="https://trendingaitools.vercel.app/terms" />
       </Head>
       <div className="min-h-screen bg-gray-900 text-white">
         <header className="bg-gray-800 p-4 text-center text-2xl font-bold">
